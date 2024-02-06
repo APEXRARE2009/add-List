@@ -189,3 +189,71 @@ ul > li {
 		border: .2vw solid rgba(255, 255, 255, .5);
 	}
 }
+
+@media (max-width: 900px) {
+	.block_add {
+		gap: 0 1.2vw;
+		border: .296vw solid rgba(255, 255, 255, .5);
+		padding: 2vw 2.6vw 2.4vw 2.6vw;
+		border-top-right-radius: 3vw;
+		border-top-left-radius: 3vw;
+		margin: 0 0 1.5vw 0;
+		width: 41vw;
+	}
+
+	.input {
+		padding: .5vw .9vw;
+		font-size: 1.6vw;
+		border: .2vw solid black;
+		box-shadow: 0 0 0.15vw 0.25vw white;
+		border-radius: .6vw;
+	}
+
+	.btn {
+		padding: .8vw 2.2vw;
+		letter-spacing: .02vw;
+		font-size: 1.6vw;
+		border-radius: .5vw;
+		box-shadow: 0vw 0.4vw 0 rgba(255, 255, 255, .5);
+		gap: 0 .5vw;
+	}
+
+	.btn-img {
+		width: 1.6vw;
+		height: 1.6vw;
+	}
+
+	.ul {
+		gap: 1.1vw 0;
+	}
+
+	.li {
+		font-size: 1.6vw;
+		border: .296vw solid rgba(255, 255, 255, .5);
+		width: 41vw;
+		padding: .9vw 1.9vw;
+	}
+
+	.btnDelete {
+		padding: .7vw .7vw;
+		box-shadow: 0 0 0.6vw black, 0 0 0.2vw black inset;
+		border-radius: .3vw;
+		width: 3vw;
+		height: 3vw;	
+	}
+
+	@keyframes borderAnim {
+		0% {
+			border: .296vw solid rgba(255, 255, 255, .5);
+		}
+
+		50% {
+			border: .296vw solid white;
+			box-shadow: 0 0 .7vw rgba(255, 255, 255, .8), 0 0 .6vw rgba(255, 255, 255, .8) inset;
+		}
+
+		100% {
+			border: .296vw solid rgba(255, 255, 255, .5);
+		}
+	}
+}
