@@ -345,6 +345,21 @@ ul > li {
 		width: 3.7vw;
 		height: 3.7vw;	
 	}
+
+	@keyframes borderAnim {
+		0% {
+			border: .296vw solid rgba(255, 255, 255, .5);
+		}
+
+		50% {
+			border: .296vw solid white;
+			box-shadow: 0 0 .9vw rgba(255, 255, 255, .8), 0 0 .8vw rgba(255, 255, 255, .8) inset;
+		}
+
+		100% {
+			border: .296vw solid rgba(255, 255, 255, .5);
+		}
+	}
 }
 
 @media (max-width: 510px) {
@@ -410,5 +425,20 @@ ul > li {
 		border-radius: .5vw;
 		width: 4.5vw;
 		height: 4.5vw;	
+	}
+
+	@keyframes borderAnim {
+		0% {
+			border: .296vw solid rgba(255, 255, 255, .5);
+		}
+
+		50% {
+			border: .296vw solid white;
+			box-shadow: 0 0 1vw rgba(255, 255, 255, .8), 0 0 .9vw rgba(255, 255, 255, .8) inset;
+		}
+
+		100% {
+			border: .296vw solid rgba(255, 255, 255, .5);
+		}
 	}
 }
