@@ -297,7 +297,7 @@ ul > li {
 	}
 
 	.btn {
-		padding: 1.1vw 3vw;
+		padding: 1.1vw 3	vw;
 		letter-spacing: .1vw;
 		font-size: 2vw;
 		border-radius: .5vw;
@@ -344,5 +344,71 @@ ul > li {
 		border-radius: .4vw;
 		width: 3.7vw;
 		height: 3.7vw;	
+	}
+}
+
+@media (max-width: 280px) {
+	.block_add {
+		gap: 0 2vw;
+		border: .296vw solid rgba(255, 255, 255, .5);
+		padding: 2.8vw 2.6vw 3.5vw 2.6vw;
+		border-top-right-radius: 5vw;
+		border-top-left-radius: 5vw;
+		margin: 0 0 2vw 0;
+		width: 75vw;
+	}
+
+	.input {
+		padding: .8vw 1.8vw;
+		font-size: 3vw;
+		border: .5vw solid black;
+		box-shadow: 0 0 0.4vw 0.62vw white;
+		border-radius: 1vw;
+		width: 44vw;
+	}
+
+	.btn {
+		padding: 1.3vw 3.8vw;
+		letter-spacing: .2vw;
+		font-size: 3vw;
+		border-radius: .9vw;
+		box-shadow: 0vw 0.8vw 0 rgba(255, 255, 255, .5);
+		gap: 0 .6vw;
+	}
+
+	.btn:disabled {
+		box-shadow: 0vw .8vw 0 rgba(255, 255, 255, .3);
+	}
+
+	.btn:disabled:active {
+		transform: none;
+		box-shadow: 0vw .8vw 0 rgba(255, 255, 255, .3);
+	}
+
+	.btn:active {
+		transform: translateY(.8vw);
+	}
+
+	.btn-img {
+		width: 3.2vw;
+		height: 3.2vw;
+	}
+
+	.ul {
+		gap: 1.6vw 0;
+	}
+
+	.li {
+		font-size: 3vw;
+		width: 75vw;
+		padding: 1.4vw 2.4vw;
+	}
+
+	.btnDelete {
+		padding: 1vw 1vw;
+		box-shadow: 0 0 0.9vw black, 0 0 0.4vw black inset;
+		border-radius: .5vw;
+		width: 4.5vw;
+		height: 4.5vw;	
 	}
 }
