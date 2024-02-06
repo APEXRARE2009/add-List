@@ -297,7 +297,7 @@ ul > li {
 	}
 
 	.btn {
-		padding: 1.1vw 3	vw;
+		padding: 1.1vw 3vw;
 		letter-spacing: .1vw;
 		font-size: 2vw;
 		border-radius: .5vw;
@@ -347,7 +347,7 @@ ul > li {
 	}
 }
 
-@media (max-width: 368px) {
+@media (max-width: 510px) {
 	.block_add {
 		gap: 0 2vw;
 		border: .296vw solid rgba(255, 255, 255, .5);
